@@ -9,7 +9,6 @@ document.querySelectorAll(".nav-links a").forEach(link => {
   });
 });
 
-
 document.querySelector(".search-box button").addEventListener("click", () => {
   const query = document.querySelector(".search-box input").value;
   if(query){
@@ -18,8 +17,6 @@ document.querySelector(".search-box button").addEventListener("click", () => {
     alert("Please enter a search term!");
   }
 });
-
-
 
 document.querySelectorAll(".feature-card .btn").forEach(btn => {
   btn.addEventListener("click", () => {
@@ -91,12 +88,6 @@ document.querySelector(".contact-form").addEventListener("submit", e => {
   e.preventDefault();
   alert("Thank you! Your message has been sent successfully.");
 });
-
-
-
-
-
-
 
 
 window.addEventListener("scroll", () => {

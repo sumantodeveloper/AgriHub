@@ -356,7 +356,7 @@
   transform: scale(1.05);
 }
 
-/* Responsive adjustment */
+
 @media (max-width: 768px) {
   .pest-card img {
     height: 120px;
@@ -364,7 +364,7 @@
 }
 
 
-/* Farming Guides */
+
 .tutorials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -399,7 +399,7 @@
   transform: scale(1.05);
 }
 
-/* Pest Control */
+
 .tabs {
   display: flex;
   gap: 15px;
